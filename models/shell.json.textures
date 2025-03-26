@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "minecraft:orange_terracotta",
+        "4": "minecraft:gold_block",
+        "missing": "minecraft:orange_terracotta"
+      },
+      "name": "default"
+    }
+  }
+}

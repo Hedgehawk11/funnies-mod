@@ -1,0 +1,10 @@
+{
+  "_fv": 73,
+  "_type": "command",
+  "definition": {
+    "commandName": "muteeverything",
+    "type": "STANDARD",
+    "permissionLevel": "3",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\">TotalMutePro</field><next><block type=\"call_procedure\"><field name=\"procedure\">MuteLeroy</field></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "textures": {
+    "particle": "funnies:block/dmv-logo-dmv-letter-dmv-letter-logo-design-initials-dmv-logo-linked-with-circle-and-uppercase-monogram-logo-dmv-typography-for-technology-business-and-real-estate-brand-vector",
+    "portal": "funnies:block/dmv-logo-dmv-letter-dmv-letter-logo-design-initials-dmv-logo-linked-with-circle-and-uppercase-monogram-logo-dmv-typography-for-technology-business-and-real-estate-brand-vector"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        }
+      }
+    }
+  ],
+  "render_type": "translucent"
+}

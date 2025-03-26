@@ -1,0 +1,144 @@
+{
+  "srv.banhammer.ban": {
+    "subtitle": "subtitles.srv.banhammer.ban",
+    "sounds": [
+      {
+        "name": "funnies:yep-youre-banned",
+        "stream": false
+      }
+    ]
+  },
+  "srv.fullwizard.skillissue": {
+    "subtitle": "subtitles.srv.fullwizard.skillissue",
+    "sounds": [
+      {
+        "name": "funnies:frankly-thats-a-skill-issue",
+        "stream": false
+      }
+    ]
+  },
+  "srv.fullwizard.copyrightclaim": {
+    "subtitle": "subtitles.srv.fullwizard.copyrightclaim",
+    "sounds": [
+      {
+        "name": "funnies:fullwizard_dies",
+        "stream": false
+      }
+    ]
+  },
+  "srv.hedgehawk11.moron": {
+    "subtitle": "subtitles.srv.hedgehawk11.moron",
+    "sounds": [
+      {
+        "name": "funnies:i-am-not-a-moron",
+        "stream": false
+      }
+    ]
+  },
+  "srv.mike.shootsgun": {
+    "subtitle": "subtitles.srv.mike.shootsgun",
+    "sounds": [
+      {
+        "name": "funnies:pump-shotgun-fortnite-loud",
+        "stream": false
+      }
+    ]
+  },
+  "srv.hedgehawk11.hurt": {
+    "subtitle": "subtitles.srv.hedgehawk11.hurt",
+    "sounds": [
+      {
+        "name": "funnies:scream",
+        "stream": false
+      }
+    ]
+  },
+  "srv.mike.moving": {
+    "subtitle": "subtitles.srv.mike.moving",
+    "sounds": [
+      {
+        "name": "funnies:the_sound_of_t-34-85_tank_mp3cut.net",
+        "stream": false
+      }
+    ]
+  },
+  "srv.gui.click": {
+    "sounds": [
+      {
+        "name": "funnies:click",
+        "stream": false
+      }
+    ]
+  },
+  "srv.gui.menuopen": {
+    "sounds": [
+      {
+        "name": "funnies:swoosh",
+        "stream": false
+      }
+    ]
+  },
+  "srv.t34.shoot": {
+    "subtitle": "subtitles.srv.t34.shoot",
+    "sounds": [
+      {
+        "name": "funnies:the_sound_of_t-34-85_tank_mp3cut.net",
+        "stream": false
+      }
+    ]
+  },
+  "srv.mike.walk": {
+    "subtitle": "subtitles.srv.mike.walk",
+    "sounds": [
+      {
+        "name": "funnies:the_sound_of_t-34-85_tank_mp3cut.net",
+        "stream": false
+      }
+    ]
+  },
+  "srv.t34.living": {
+    "subtitle": "subtitles.srv.t34.living",
+    "sounds": [
+      {
+        "name": "funnies:1637909160__sssr-gimn-sssr",
+        "stream": false
+      }
+    ]
+  },
+  "srv.music.screwyou": {
+    "subtitle": "subtitles.srv.music.screwyou",
+    "sounds": [
+      {
+        "name": "funnies:funk_af_-_everet_almond",
+        "stream": false
+      }
+    ]
+  },
+  "srv.music.dmvtheme": {
+    "subtitle": "subtitles.srv.music.dmvtheme",
+    "sounds": [
+      {
+        "name": "funnies:papers_please_theme_song",
+        "stream": false
+      }
+    ]
+  },
+  "srv.sussyflag.music": {
+    "subtitle": "subtitles.srv.sussyflag.music",
+    "sounds": [
+      {
+        "name": "funnies:1637909160__sssr-gimn-sssr",
+        "stream": false
+      }
+    ]
+  },
+  "srv.music.kazoo": {
+    "subtitle": "subtitles.srv.music.kazoo",
+    "sounds": [
+      {
+        "name": "funnies:usa_national_anthem_kazoo_-_youtube_online-audio-converter.com",
+        "stream": true
+      }
+    ]
+  }
+}

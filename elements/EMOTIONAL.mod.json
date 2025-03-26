@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s is STOOPID",
+    "itemDeathMessage": "%1$s got EMOTIANAL DAMAGE by %2$s",
+    "playerDeathMessage": "%1$s died whilst trying to escape EMOTIANAL DAMAGE from %2$s"
+  }
+}

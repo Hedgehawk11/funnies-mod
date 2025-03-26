@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "funnies",
+    "icon": {
+      "value": "Blocks.GRASS_PATH"
+    },
+    "showSearch": true
+  }
+}

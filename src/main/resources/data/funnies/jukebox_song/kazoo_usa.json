@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.srv.kazoo_usa.desc"
+  },
+  "length_in_seconds": 78,
+  "sound_event": "srv:srv.music.kazoo"
+}

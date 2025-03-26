@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "funnies:block/dmv_portal_ew"
+    },
+    "axis=x": {
+      "model": "funnies:block/dmv_portal_ns"
+    }
+  }
+}

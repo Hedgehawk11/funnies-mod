@@ -1,0 +1,59 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "music": {
+      "sound": "funnies:srv.music.dmvtheme",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "soul"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -13421773,
+    "grass_color": -13421773,
+    "sky_color": -13421773,
+    "fog_color": -13421773,
+    "water_color": -13421773,
+    "water_fog_color": -13421773
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "funnies:hedgehawk_11",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "funnies:dmv_biome_tree"
+    ],
+    []
+  ]
+}

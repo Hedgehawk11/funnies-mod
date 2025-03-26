@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.srv.waiting_music.desc"
+  },
+  "length_in_seconds": 174,
+  "sound_event": "srv:srv.music.screwyou"
+}

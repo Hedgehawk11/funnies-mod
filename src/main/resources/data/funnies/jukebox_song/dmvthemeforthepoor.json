@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.srv.dmvthemeforthepoor.desc"
+  },
+  "length_in_seconds": 102,
+  "sound_event": "srv:srv.music.dmvtheme"
+}

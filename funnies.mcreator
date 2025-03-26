@@ -1,0 +1,944 @@
+{
+  "mod_elements": [
+    {
+      "name": "EMOTIONAL",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emotional",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/funnies/damage_type/emotional.json"
+        ]
+      }
+    },
+    {
+      "name": "Srv",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "srv",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SRVAdmin",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "srv_admin",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BanHammerLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/BanHammerLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BanHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/BanHammerItem.java",
+          "src/main/resources/assets/funnies/models/item/ban_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "Hedgehawk11",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hedgehawk_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/client/renderer/Hedgehawk11Renderer.java",
+          "src/main/resources/data/funnies/forge/biome_modifier/hedgehawk_11_biome_modifier.json",
+          "src/main/java/net/mcreator/srv/entity/Hedgehawk11Entity.java",
+          "src/main/resources/assets/funnies/models/item/hedgehawk_11_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Mike",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/entity/MikeEntity.java",
+          "src/main/java/net/mcreator/srv/client/renderer/MikeRenderer.java",
+          "src/main/resources/data/funnies/forge/biome_modifier/mike_biome_modifier.json",
+          "src/main/resources/assets/funnies/models/item/mike_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "LeroyBaldman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leroy_baldman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/funnies/forge/biome_modifier/leroy_baldman_biome_modifier.json",
+          "src/main/java/net/mcreator/srv/client/renderer/LeroyBaldmanRenderer.java",
+          "src/main/java/net/mcreator/srv/entity/LeroyBaldmanEntity.java",
+          "src/main/resources/assets/funnies/models/item/leroy_baldman_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "NJ256",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nj_256",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/funnies/forge/biome_modifier/nj_256_biome_modifier.json",
+          "src/main/java/net/mcreator/srv/entity/NJ256Entity.java",
+          "src/main/resources/assets/funnies/models/item/nj_256_spawn_egg.json",
+          "src/main/java/net/mcreator/srv/client/renderer/NJ256Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenGUI",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/network/OpenGUIMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenGUIOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/OpenGUIOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveNightVision",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/GiveNightVisionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TakeNightVision",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/TakeNightVisionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TANKLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tank_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/TANKLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "COpenGUI",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_open_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/command/COpenGUICommand.java"
+        ]
+      }
+    },
+    {
+      "name": "MuteLeroy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mute_leroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/MuteLeroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DMV",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/funnies/models/item/dmv.json",
+          "src/main/java/net/mcreator/srv/world/teleporter/DMVTeleporter.java",
+          "src/main/resources/assets/funnies/models/block/dmv_portal_ew.json",
+          "src/main/resources/assets/funnies/models/block/dmv_portal_ns.json",
+          "src/main/resources/data/funnies/dimension_type/dmv.json",
+          "src/main/java/net/mcreator/srv/world/teleporter/DMVPortalShape.java",
+          "src/main/resources/assets/funnies/blockstates/dmv_portal.json",
+          "src/main/java/net/mcreator/srv/world/dimension/DMVDimension.java",
+          "src/main/resources/data/funnies/dimension/dmv.json",
+          "src/main/java/net/mcreator/srv/block/DMVPortalBlock.java",
+          "src/main/java/net/mcreator/srv/item/DMVItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TpTo00",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_to_00",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/TpTo00Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaitingMusicItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waiting_music_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/WaitingMusicItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HungerReset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunger_reset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/HungerResetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TempBan",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banhammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/command/TempBanCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "TotalMutePro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "total_mute_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/TotalMuteProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotalMute",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "total_mute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/command/TotalMuteCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AltMike",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_mike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/client/renderer/AltMikeRenderer.java",
+          "src/main/resources/data/funnies/forge/biome_modifier/alt_mike_biome_modifier.json",
+          "src/main/resources/assets/funnies/models/item/alt_mike_spawn_egg.json",
+          "src/main/java/net/mcreator/srv/entity/AltMikeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AltMikeEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_mike_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/AltMikeEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmericanTank",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "american_tank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/AmericanTankItem.java",
+          "src/main/resources/assets/funnies/models/item/american_tank.json"
+        ]
+      }
+    },
+    {
+      "name": "TANKnew",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tan_knew",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/funnies/models/item/tan_knew.json",
+          "src/main/java/net/mcreator/srv/item/TANKnewItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Evil",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/EvilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GameTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "game_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/procedures/GameTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DMVBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmv_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/funnies/worldgen/placed_feature/dmv_biome_tree.json",
+          "src/main/resources/data/funnies/worldgen/configured_feature/dmv_biome_tree.json",
+          "src/main/resources/data/funnies/worldgen/biome/dmv_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "DMVPortal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmv_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/funnies/recipes/dmv_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "T34Shoots",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_34_shoots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/T34ShootsItem.java",
+          "src/main/resources/assets/funnies/models/item/t_34_shoots.json"
+        ]
+      }
+    },
+    {
+      "name": "WaitingMusic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waiting_music",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/WaitingMusicItem.java",
+          "src/main/resources/assets/funnies/models/item/waiting_music.json"
+        ]
+      }
+    },
+    {
+      "name": "DMVThemeMusic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmv_theme_music",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/DMVThemeMusicItem.java",
+          "src/main/resources/assets/funnies/models/item/dmv_theme_music.json"
+        ]
+      }
+    },
+    {
+      "name": "DMVTHEMEFORTHEPOOR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmvthemeforthepoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/DMVTHEMEFORTHEPOORItem.java",
+          "src/main/resources/assets/funnies/models/item/dmvthemeforthepoor.json"
+        ]
+      }
+    },
+    {
+      "name": "DMVWAITMUSICFORTHEPOOR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmvwaitmusicforthepoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/funnies/models/item/dmvwaitmusicforthepoor.json",
+          "src/main/java/net/mcreator/srv/item/DMVWAITMUSICFORTHEPOORItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KazooUSA",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kazoo_usa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/item/KazooUSAItem.java",
+          "src/main/resources/assets/funnies/models/item/kazoo_usa.json"
+        ]
+      }
+    },
+    {
+      "name": "TheGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/srv/client/gui/TheGUIScreen.java",
+          "src/main/java/net/mcreator/srv/world/inventory/TheGUIMenu.java",
+          "src/main/java/net/mcreator/srv/network/TheGUIButtonMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "srv.banhammer.ban",
+      "files": [
+        "yep-youre-banned"
+      ],
+      "category": "master",
+      "subtitle": "BANNED"
+    },
+    {
+      "name": "srv.fullwizard.skillissue",
+      "files": [
+        "frankly-thats-a-skill-issue"
+      ],
+      "category": "player",
+      "subtitle": "Leroy Baldman lies"
+    },
+    {
+      "name": "srv.fullwizard.copyrightclaim",
+      "files": [
+        "fullwizard_dies"
+      ],
+      "category": "player",
+      "subtitle": "Leroy Baldman dies (here we go again)"
+    },
+    {
+      "name": "srv.hedgehawk11.moron",
+      "files": [
+        "i-am-not-a-moron"
+      ],
+      "category": "player",
+      "subtitle": "Joel Portal speaks the truth"
+    },
+    {
+      "name": "srv.mike.shootsgun",
+      "files": [
+        "pump-shotgun-fortnite-loud"
+      ],
+      "category": "player",
+      "subtitle": "Mike shoots a gun"
+    },
+    {
+      "name": "srv.hedgehawk11.hurt",
+      "files": [
+        "scream"
+      ],
+      "category": "player",
+      "subtitle": "Joel Portal Gets Hurt"
+    },
+    {
+      "name": "srv.mike.moving",
+      "files": [
+        "the_sound_of_t-34-85_tank_mp3cut.net"
+      ],
+      "category": "player",
+      "subtitle": "Mike moves"
+    },
+    {
+      "name": "srv.gui.click",
+      "files": [
+        "click"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "srv.gui.menuopen",
+      "files": [
+        "swoosh"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "srv.t34.shoot",
+      "files": [
+        "the_sound_of_t-34-85_tank_mp3cut.net"
+      ],
+      "category": "player",
+      "subtitle": "T34"
+    },
+    {
+      "name": "srv.mike.walk",
+      "files": [
+        "the_sound_of_t-34-85_tank_mp3cut.net"
+      ],
+      "category": "player",
+      "subtitle": "Mike Walks"
+    },
+    {
+      "name": "srv.t34.living",
+      "files": [
+        "1637909160__sssr-gimn-sssr"
+      ],
+      "category": "hostile",
+      "subtitle": "T34 T34\u0027s"
+    },
+    {
+      "name": "srv.music.screwyou",
+      "files": [
+        "funk_af_-_everet_almond"
+      ],
+      "category": "master",
+      "subtitle": "The DMV tries to find something"
+    },
+    {
+      "name": "srv.music.dmvtheme",
+      "files": [
+        "papers_please_theme_song"
+      ],
+      "category": "master",
+      "subtitle": "The DMV processes start"
+    },
+    {
+      "name": "srv.sussyflag.music",
+      "files": [
+        "1637909160__sssr-gimn-sssr"
+      ],
+      "category": "block",
+      "subtitle": "da DAAAAA DA da DAAAAA DA"
+    },
+    {
+      "name": "srv.music.kazoo",
+      "files": [
+        "usa_national_anthem_kazoo_-_youtube_online-audio-converter.com"
+      ],
+      "category": "record",
+      "subtitle": "USA! USA! USA!"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TANKnew",
+      "~CUSTOM:AmericanTank"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.CONCRETE#15",
+      "~Blocks.CONCRETE#7"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:KazooUSA",
+      "~CUSTOM:DMVWAITMUSICFORTHEPOOR",
+      "~CUSTOM:DMVTHEMEFORTHEPOOR",
+      "~CUSTOM:DMVThemeMusic",
+      "~CUSTOM:WaitingMusic",
+      "~CUSTOM:T34Shoots"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Srv": [
+      "Hedgehawk11",
+      "Mike",
+      "LeroyBaldman",
+      "NJ256",
+      "AltMike",
+      "DMV",
+      "DMVTHEMEFORTHEPOOR",
+      "DMVWAITMUSICFORTHEPOOR",
+      "AmericanTank",
+      "TANKnew",
+      "T34Shoots"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "entity.funnies.leroy_baldman": "fullwizard",
+      "death.attack.emotional": "%1$s is STOOPID",
+      "subtitles.srv.gui.click": "",
+      "gui.funnies.the_gui.button_get_fullbright": "Get Fullbright",
+      "subtitles.srv.t34.living": "T34 T34\u0027s",
+      "item.srv.dmv_theme_music.desc": "The DMV theme",
+      "item.srv.american_tank": "American Tank",
+      "entity.srv.alt_mike": "Mike",
+      "subtitles.srv.music.screwyou": "The DMV tries to find something",
+      "gui.srv.the_srvgui.button_get_fullbright": "Get Fullbright",
+      "entity.funnies.hedgehawk_11": "Hedgehawk11",
+      "item.funnies.waiting_music": "Waiting Music",
+      "subtitles.srv.t34.shoot": "T34",
+      "item.srv.dmv": "THE DMV LINKER",
+      "item.srv.dmvwaitmusicforthepoor": "Waiting Music, Obtainable",
+      "subtitles.srv.hedgehawk11.hurt": "Joel Portal Gets Hurt",
+      "entity.srv.hedgehawk_11": "Hedgehawk11",
+      "subtitles.srv.mike.shootsgun": "Mike shoots a gun",
+      "item.srv.ban_hammer": "Ban Hammer",
+      "gui.srv.the_srvgui.button_delete_fullbright": "Delete Fullbright",
+      "item_group.funnies.srv_admin": "Funnies Admin",
+      "item.srv.kazoo_usa": "Kazoo USA",
+      "gui.funnies.the_gui.button_mute_loud_noises": "Mute Loud noises",
+      "entity.funnies.mike": "Mike",
+      "item.srv.dmvwaitmusicforthepoor.desc": "DMV Hold Music",
+      "item.funnies.alt_mike_spawn_egg": "Mike Spawn Egg",
+      "key.funnies.open_gui": "Open GUI",
+      "item.srv.t_34_shoots.desc": "... LEROY",
+      "subtitles.srv.music.dmvtheme": "The DMV processes start",
+      "subtitles.srv.dmv.theme": "",
+      "item.funnies.t_34_shoots": "T34 Shoots",
+      "item.funnies.nj_256_spawn_egg": "NJ256 Spawn Egg",
+      "item.srv.t_34_shoots": "T34 Shoots",
+      "gui.srv.the_srvgui.button_dmv": "DMV",
+      "item_group.funnies.srv": "funnies",
+      "item.srv.dmvthemeforthepoor.desc": "The DMV theme",
+      "item_group.srv.srv_admin": "Funnies Admin",
+      "subtitles.srv.fullwizard.copyrightclaim": "Leroy Baldman dies (here we go again)",
+      "entity.funnies.alt_mike": "Mike",
+      "item.funnies.waiting_music.desc": "DMV Hold Music",
+      "item.srv.kazoo_usa.desc": "USA KAZOOOOOOOOOO",
+      "gui.srv.the_srvgui.button_hunger_reset": "Hunger Reset",
+      "item.funnies.kazoo_usa": "Kazoo USA",
+      "item.funnies.t_34_shoots.desc": "... LEROY",
+      "item.funnies.kazoo_usa.desc": "USA KAZOOOOOOOOOO",
+      "subtitles.srv.mike.moving": "Mike moves",
+      "item.srv.nj_256_spawn_egg": "NJ256 Spawn Egg",
+      "item_group.srv.srv": "funnies",
+      "item.funnies.dmvwaitmusicforthepoor": "Waiting Music, Obtainable",
+      "item.srv.leroy_baldman_spawn_egg": "fullwizard Spawn Egg",
+      "subtitles.srv.mike.walk": "Mike Walks",
+      "gui.srv.the_srvgui.button_mute_loud_noises": "Mute Loud noises",
+      "item.funnies.tan_knew": "T-34 Tank",
+      "gui.funnies.the_gui.button_delete_fullbright": "Delete Fullbright",
+      "gui.srv.the_srvgui.button_leave": "LEAVE",
+      "gui.srv.the_srvgui.button_mute_leroy": "Mute Leroy",
+      "item.funnies.dmvwaitmusicforthepoor.desc": "DMV Hold Music",
+      "death.attack.emotional.item": "%1$s got EMOTIANAL DAMAGE by %2$s",
+      "item.srv.hedgehawk_11_spawn_egg": "Hedgehawk11 Spawn Egg",
+      "item.funnies.dmvthemeforthepoor": "DMV Theme Music, obtainable",
+      "item.srv.mike_spawn_egg": "Mike Spawn Egg",
+      "item.srv.dmv_theme_music": "DMV Theme Music",
+      "painting.srv.srv_paint.title": "SRV",
+      "key.srv.open_gui": "Open GUI",
+      "subtitles.srv.hedgehawk11.moron": "Joel Portal speaks the truth",
+      "item.funnies.mike_spawn_egg": "Mike Spawn Egg",
+      "item.funnies.american_tank": "American Tank",
+      "subtitles.srv.fullwizard.skillissue": "Leroy Baldman lies",
+      "painting.srv.srv_paint.author": "Hedgehawk11",
+      "entity.srv.mike": "Mike",
+      "subtitles.srv.sussyflag.music": "da DAAAAA DA da DAAAAA DA",
+      "entity.funnies.nj_256": "NJ256",
+      "death.attack.emotional.player": "%1$s died whilst trying to escape EMOTIANAL DAMAGE from %2$s",
+      "subtitles.srv.gui.menuopen": "",
+      "item.srv.dmvthemeforthepoor": "DMV Theme Music, obtainable",
+      "item.funnies.dmv_theme_music": "DMV Theme Music",
+      "item.srv.tan_knew": "T-34 Tank",
+      "biome.funnies.dmv_biome": "DMV Biome",
+      "item.srv.alt_mike_spawn_egg": "Mike Spawn Egg",
+      "entity.srv.nj_256": "NJ256",
+      "gui.funnies.the_gui.button_hunger_reset": "Hunger Reset",
+      "subtitles.srv.banhammer.ban": "BANNED",
+      "entity.srv.leroy_baldman": "fullwizard",
+      "biome.srv.dmv_biome": "DMV Biome",
+      "gui.srv.the_srvgui.label_i_might_add_something_to_this_la": "I might add something to this later",
+      "item.funnies.ban_hammer": "Ban Hammer",
+      "item.funnies.hedgehawk_11_spawn_egg": "Hedgehawk11 Spawn Egg",
+      "item.funnies.dmvthemeforthepoor.desc": "The DMV theme",
+      "item.funnies.dmv": "THE DMV LINKER",
+      "item.srv.waiting_music.desc": "DMV Hold Music",
+      "item.funnies.leroy_baldman_spawn_egg": "fullwizard Spawn Egg",
+      "item.srv.waiting_music": "Waiting Music",
+      "item.funnies.dmv_theme_music.desc": "The DMV theme",
+      "subtitles.srv.music.kazoo": "USA! USA! USA!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "funnies",
+    "modName": "The funnies Mod",
+    "version": "3",
+    "description": "Made with no regrets by Hedgehawk11",
+    "author": "Hedgehawk11",
+    "websiteURL": "https://hedgehawk11.github.io",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "YOUTUBE",
+    "modElementsPackage": "net.mcreator.srv"
+  },
+  "mcreatorVersion": 202400452410
+}

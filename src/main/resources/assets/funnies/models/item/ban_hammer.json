@@ -1,0 +1,8 @@
+{
+  "parent": "funnies:custom/hammer",
+  "textures": {
+    "Gray": "funnies:block/body",
+    "Orange": "funnies:block/handle",
+    "particle": "funnies:item/angery"
+  }
+}

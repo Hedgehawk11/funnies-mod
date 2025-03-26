@@ -1,0 +1,86 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 202,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_get_fullbright",
+          "text": "Get Fullbright",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GiveNightVision"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_delete_fullbright",
+          "text": "Delete Fullbright",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TakeNightVision"
+          },
+          "width": 114,
+          "height": 20,
+          "x": 159,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hunger_reset",
+          "text": "Hunger Reset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "HungerReset"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 172,
+          "y": 160,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_mute_loud_noises",
+          "text": "Mute Loud noises",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MuteLeroy"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 161,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

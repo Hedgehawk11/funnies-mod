@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="funnies"
+version="3"
+displayName="The funnies Mod"
+displayURL="https://hedgehawk11.github.io"
+credits="YOUTUBE"
+authors="Hedgehawk11"
+description="Made with no regrets by Hedgehawk11"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.funnies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
